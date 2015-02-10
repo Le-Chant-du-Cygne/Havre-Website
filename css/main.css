@@ -99,8 +99,10 @@ textarea {
 
 body {
     font-family: "DejaVu";
+    color: #660909;
+    text-shadow: 0 0 10px #660909, 0 0 20px #660909, 0 0 30px #660909, 0 0 40px #660909, 0 0 60px #660909, 0 0 70px #660909, 0 0 90px #660909, 0 0 140px #660909;
     font-size: 20px;
-    background-color: #fff;
+    background-color: #000;
 }
 
 @font-face {
@@ -109,7 +111,11 @@ body {
     src: url('../fonts/DejaVuSans.eot?#iefix') format('embedded-opentype'), url('../fonts/DejaVuSans.woff2') format('woff2'), url('../fonts/DejaVuSans.woff') format('woff'), url('../fonts/DejaVuSans.ttf') format('truetype'), url('../fonts/DejaVuSans.svg#OratorStd') format('svg');
 }
 
-
+.screenshot {
+    -webkit-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+-moz-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+}
 
 
 
