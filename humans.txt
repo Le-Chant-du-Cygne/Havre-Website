@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Art: Gael Bourhis, @gaelBourhis
+    Code: Simon Chauvin, www.simonchauvin.com, @SimonChauvin
+    Text: Romain Enselme, @AGavaldaKedavra
 
-# THANKS
-
-    <name>
+    Founded on February 1st, 2015.
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Bootstrap, Normalize.css, jQuery, Modernizr
