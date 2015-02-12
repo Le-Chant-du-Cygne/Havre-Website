@@ -113,8 +113,8 @@ body {
 
 .screenshot {
     -webkit-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
--moz-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+    -moz-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+    box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
 }
 
 
