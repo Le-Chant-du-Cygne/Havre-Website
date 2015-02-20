@@ -112,14 +112,18 @@ body {
 }
 
 .screenshot {
-    -webkit-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
-    -moz-box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
-    box-shadow: 10px 10px 42px 5px rgba(102,9,9,1);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(102,9,9,1);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(102,9,9,1);
+    box-shadow: 0px 0px 20px 5px rgba(102,9,9,1);
 }
 
+.title {
+    font-size: 100px;
+}
 
-
-
+.footer a {
+    color: inherit;
+}
 
 
 
