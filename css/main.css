@@ -141,7 +141,7 @@ body {
 /* HEADER */
 
 .header {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 200px;
 }
 
@@ -164,7 +164,8 @@ a:focus {
 /* FOOTER */
 
 .footer {
-    margin-top: 150px;
+    margin-top: 80px;
+	margin-bottom: 40px;
     color: #EEE;
 }
 
