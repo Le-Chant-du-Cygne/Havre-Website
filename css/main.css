@@ -147,9 +147,63 @@ h1 {
     margin-bottom: 60px;
 }
 
+.screenshots-row {
+    margin-bottom: 30px;
+}
+
 .links {
     font-size: 15px;
     margin-bottom: 60px;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup{
+    clear:left;
+    width:100%;
+}
+
+#mc_embed_signup input.email {
+    font-family: "OpenSansLight";
+    font-size: 15px;
+    border: none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.5);
+    box-sizing:border-box;
+    height:32px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 0;
+    width:350px;
+    vertical-align:top;
+}
+
+#mc_embed_signup .button {
+    font-size: 15px;
+    border: none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.5);
+    box-sizing: border-box;
+    height:32px;
+    line-height:32px;
+    padding:0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup .button:hover {
+    background-color:#000;
+    cursor:pointer;
 }
 
 .links a {
