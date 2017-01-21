@@ -103,65 +103,51 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: "DejaVu";
+    font-family: "OpenSansLight";
     color: #EEE;
-    font-size: 20px;
+    font-size: 18px;
     background: inherit;
     background-color: #484A48;
+    text-align: center;
 }
 
 @font-face {
-    font-family: 'DejaVuSans';
-    src: url('../fonts/DejaVuSans.eot');
-    src: url('../fonts/DejaVuSans.eot?#iefix') format('embedded-opentype'), url('../fonts/DejaVuSans.woff2') format('woff2'), url('../fonts/DejaVuSans.woff') format('woff'), url('../fonts/DejaVuSans.ttf') format('truetype'), url('../fonts/DejaVuSans.svg#OratorStd') format('svg');
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.woff') format('woff'), url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Light-webfont.svg#OratorStd') format('svg');
 }
 
 /* CONTENT */
 
-.description {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
 
-.screenshot img {
-    -webkit-box-shadow: 0px 0px 5px 5px #000;
-    -moz-box-shadow: 0px 0px 5px 5px #000;
-    box-shadow: 0px 0px 5px 5px #000;
-}
-
-.screenshot img {
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-}
-
-.screenshot:hover img {
-    opacity: 1;
-    filter: alpha(opacity=100);
-}
 
 /* HEADER */
 
 .title {
-    font-size: 100px;
-    color: #FFF;
+    margin-top: 250px;
+    margin-bottom: 150px;
 }
 
-.header {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.trailer {
-    margin-bottom: 80px;
+h1 {
+    color: #162d43;
+    font-size: 125px;
+    letter-spacing: 40px;
 }
 
 .pitch {
-    font-size: 24px;
-    margin-bottom: 80px;
+    font-size: 18px;
+    margin-bottom: 60px;
 }
 
-.screenshots {
-    margin-bottom: 100px;
+.links{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.links a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
@@ -178,8 +164,11 @@ a:focus {
 /* FOOTER */
 
 .footer {
-    margin-top: 60px;
-    margin-bottom: 40px;
+    font-size: 15px;
+    //position: absolute;
+    //bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
     color: #EEE;
 }
 

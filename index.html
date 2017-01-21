@@ -19,83 +19,57 @@
         <link rel="stylesheet" href="css/lightbox.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
-        <!-- Favicons -->
-        <link rel="icon" href="favicon.ico">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-            <!-- Page Content -->
-            <div class="container">
-                
-                <div class="row header">
-                    <div class="col-xs-12 col-md-12 col-lg-12 text-center">
-                        <h1 class="title">Havre</h1>
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row content">
+                <div class="col-md-8 col-md-offset-2 blog-main">
+                    <div class="title">
+                        <h1>HAVRE</h1>
                     </div>
-                </div>
-                <div class="row trailer">
-                    <div class="col-xs-12 col-md-12 col-lg-12 text-center">
-                        <iframe src="https://player.vimeo.com/video/147185074" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="row pitch">
-                    <div class="col-md-3 col-lg-3">
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-6 text-center">
+                    <div class="pitch">
                         <p>Wander through a vast cylindrical world, unveil its governing laws, trigger climatic forces and affect the world on a massive scale to bring life back to Havre.</p>
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="links">
+                        <a href="http://havre-game.tumblr.com/" target="_blank">Inspirations</a>
+                        <span> - </span>
+                        <a href="https://twitter.com/LeChantduCygne" target="_blank">Twitter</a>
+                        <span> - </span>
+                        <!--<a href="http://havre-game.tumblr.com/" target="_blank">DevBlog</a>
+                        <span> - </span>-->
+                        <a href="http://www.lechantducygne.com/press/sheet.php?p=havre" target="_blank">Presskit</a>
                     </div>
                 </div>
-                <div class="screenshots">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                            <img class="center-block img-responsive" alt="Screenshot 1" src="img/screenshot1.png">
-                        </div>
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                            <img class="center-block img-responsive" alt="Screenshot 2" src="img/screenshot2.png">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                            <img class="center-block img-responsive" alt="Screenshot 3" src="img/screenshot3.png">
-                        </div>
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                            <img class="center-block img-responsive" alt="Screenshot 4" src="img/screenshot4.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="row description">
-                    <div class="col-md-3 col-lg-3 text-center"></div>
-                    <div class="col-xs-12 col-md-6 col-lg-6 text-center">
-                        <p>
-                            <a class="btn btn-default" href="http://havre-game.tumblr.com/" target="_blank">Devblog</a>
-                            <a class="btn btn-default" href="http://havre-game.tumblr.com/" target="_blank">References</a>
-                            <a class="btn btn-default" href="http://www.lechantducygne.com/press/sheet.php?p=havre" target="_blank">Presskit</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-3 text-center"></div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row footer">
-                    <div class="col-xs-12 col-md-12 col-lg-12 text-center">
-                        Developed by <a href="http://www.lechantducygne.com">Le Chant du cygne</a>.
-                    </div>
-                </div>
-
+            </div> <!-- /.content -->
+        </div><!-- /.container -->
+        <footer class="footer">
+            <div>
+                Developed by <a href="http://www.lechantducygne.com">Le Chant du cygne</a>.
             </div>
-            <!-- /.container -->
+        </footer>
+
+
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -106,16 +80,20 @@
 
         <!-- Piwik -->
         <script type="text/javascript">
-          var _paq = _paq || [];
-          _paq.push(['trackPageView']);
-          _paq.push(['enableLinkTracking']);
-          (function() {
-            var u="//www.lechantducygne.com/analytics/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', 1]);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-          })();
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u = "//www.lechantducygne.com/analytics/";
+                _paq.push(['setTrackerUrl', u + 'piwik.php']);
+                _paq.push(['setSiteId', 1]);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.type = 'text/javascript';
+                g.async = true;
+                g.defer = true;
+                g.src = u + 'piwik.js';
+                s.parentNode.insertBefore(g, s);
+            })();
         </script>
         <noscript><p><img src="//www.lechantducygne.com/analytics/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
         <!-- End Piwik Code -->
